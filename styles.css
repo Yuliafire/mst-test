@@ -178,7 +178,11 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #222222;
+  cursor: pointer;
+  transition: all ease 0.5s;
 }
+
+
 
 .banner__image {
   object-fit: cover;
@@ -287,7 +291,11 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #282829;
+  cursor: pointer;
+  transition: all ease 0.5s;
 }
+
+
 
 /* FORM SECTION START */
 .form {
@@ -311,9 +319,9 @@
 }
 
 .form__woman {
-position: absolute;
-transform: translateX(400px);
-clip-path: inset(0 0 140px 0);
+  position: absolute;
+  transform: translate(400px, 10px);
+  clip-path: inset(0 0 140px 0);
 }
 
 .form__wrapper {
@@ -400,7 +408,11 @@ clip-path: inset(0 0 140px 0);
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
+  cursor: pointer;
+  transition: all ease 0.5s;
 }
+
+
 
 .form__inputs-box {
   display: flex;
@@ -544,7 +556,11 @@ clip-path: inset(0 0 140px 0);
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #222222;
+  cursor: pointer;
+  transition: all ease 0.5s;
 }
+
+
 
 .footer__bottom-section-item {
   font-family: "Arial";
@@ -555,4 +571,64 @@ clip-path: inset(0 0 140px 0);
   leading-trim: both;
   text-edge: cap;
   color: #d5c9be;
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+  .properties__about-btn:hover {
+    background: #f0f0f0;
+    color: #000000;
+    transform: scale(1.05);
+  }
+
+  .banner__content-btn:hover {
+    background: #f0f0f0;
+    color: #000000;
+    transform: scale(1.1);
+  }
+
+  .form__submit:hover {
+    background: grey;
+    border: grey;
+    color: #FFF;
+    transform: scale(1.05);
+  }
+
+  .form__submit:hover {
+    background: grey;
+    border: grey;
+    color: #FFF;
+    transform: scale(1.05);
+  }
+
+  .form__submit:hover {
+    background: grey;
+    border: grey;
+    color: #FFF;
+    transform: scale(1.05);
+  }
+
+  .form__submit:hover {
+    background: grey;
+    border: grey;
+    color: #FFF;
+    transform: scale(1.05);
+  }
+
+  .footer__bottom-btn:hover {
+    background: #f0f0f0;
+    color: #000000;
+    transform: scale(1.1);
+  }
+
+  .footer__social-icon:hover {
+    cursor: pointer;
+  }
+
+  .footer__social-icon:hover svg rect,
+  .footer__social-icon:hover svg path {
+    stroke: #ffffff;
+    transition: stroke 0.3s ease;
+    transform: scale(1.1);
+  }
 }
