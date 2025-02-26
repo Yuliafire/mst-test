@@ -288,6 +288,110 @@
   color: #282829;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #222222;
+}
+
+.form__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__wrapper {
+  box-sizing: border-box;
+  width: 1597px;
+  height: 628px;
+  background: #ffffff;
+  border: 2px solid #d5c9be;
+  border-radius: 30px;
+  padding-left: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url(./assets/8-8\ 3.png);
+  background-position: 500px 0;
+  background-repeat: no-repeat;
+}
+
+.form__title {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 110%;
+  color: #38535d;
+}
+
+.form__wrapper-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 45px;
+}
+
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form__inputs input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 13.8768px 20.8152px 13.8768px 38.1613px;
+  gap: 8.67px;
+  width: 781px;
+  height: 65px;
+  background: #ffffff;
+  border: 2px solid #d6d6d6;
+  border-radius: 4px;
+}
+
+.form__submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 40px;
+  gap: 20px;
+
+  width: 781px;
+  height: 100px;
+
+  color: #fff;
+  background: #222222;
+
+  padding: 32px 20.8152px;
+  gap: 8.67px;
+
+  width: 781px;
+  height: 100px;
+
+  background: #282829;
+  border-radius: 4px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  /* identical to box height, or 36px */
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -378,6 +482,17 @@
   height: 78px;
   background: #ffffff;
   border-radius: 4px;
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #222222;
 }
 
 .footer__bottom-section-item {
