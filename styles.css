@@ -310,6 +310,12 @@
   justify-content: center;
 }
 
+.form__woman {
+position: absolute;
+transform: translateX(400px);
+clip-path: inset(0 0 140px 0);
+}
+
 .form__wrapper {
   box-sizing: border-box;
   width: 1597px;
@@ -406,6 +412,7 @@
   display: flex;
   gap: 15px;
 }
+
 .checkbox input {
   /* Rectangle 50 */
 
@@ -506,6 +513,7 @@
 .footer__bottom-section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer__bottom-social-links {
