@@ -321,7 +321,7 @@
 .form__woman {
   position: absolute;
   transform: translate(400px, 10px);
-  clip-path: inset(0 0 140px 0);
+  clip-path: inset(0 0 150px 0);
 }
 
 .form__wrapper {
