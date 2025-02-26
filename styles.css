@@ -270,6 +270,7 @@
 
 .property__image {
   width: 100%;
+  object-fit: cover;
 }
 
 .properties__about-btn {
@@ -333,7 +334,7 @@
   padding-left: 135px;
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url(./assets/8-8\ 3.png);
+  background-image: url(./assets/form.png);
   background-position: 500px 0;
   background-repeat: no-repeat;
 }
