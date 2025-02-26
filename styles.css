@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BANNER SECTION START */
+.banner {
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.banner__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.banner__nav-logo,
+.banner__content-title-main,
+.banner__content-title-sub {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  leading-trim: both;
+  text-edge: cap;
+}
+
+.banner__nav-logo {
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.banner__content-title-main,
+.banner__content-title-sub {
+  font-size: 80px;
+  line-height: 120%;
+  /* leading-trim: Cap height; */
+  line-height: 96px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.banner__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 230px;
+  width: 70%;
+  height: auto;
+  background-color: #222222;
+  padding-left: 162px;
+  padding-top: 35px;
+}
+
+.banner__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+  padding: 0px;
+}
+
+.banner__nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 29px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.banner__nav-list-item,
+.banner__content-title-tagline,
+.banner__content-info-item-text {
+  font-size: 16px;
+  font-weight: 400;
+  leading-trim: both;
+  text-edge: cap;
+}
+
+.banner__nav-list-item {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.banner__content-title-tagline {
+  font-style: normal;
+  font-size: 50px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.banner__nav-list-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.banner__content-descr {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.banner__content-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.banner__content-title-main,
+.banner__content-title-sub {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 120%;
+  leading-trim: Cap height;
+  line-height: 96px;
+  letter-spacing: 0%;
+  leading-trim: both;
+  text-edge: cap;
+  color: #ffffff;
+}
+
+.banner__content-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.banner__content-info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.banner__content-info-item-text {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 110%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner__content-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 50px;
+  width: 191px;
+  height: 96px;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-top: -8px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.banner__image {
+  object-fit: cover;
+}
+
+/* BANNER SECTION END */
+
+.properties {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1920px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.properties__container {
+  width: 100%;
+  max-width: 1920px;
+}
+
+.properties__line {
+  height: 100px;
+  background-color: #222222;
+}
+
+.properties__content {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.properties__about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 80px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.properties__about-features {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+}
+
+.properties__about-feature {
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.properties__about-feature-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.properties__about-feature-wrapper p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  leading-trim: both;
+  text-edge: cap;
+  color: #ffffff;
+}
+
+.properties__about-feature-icon {
+  width: 84.66px;
+  height: 77.41px;
+}
+
+.properties__content {
+  background-color: #222222;
+}
+
+.properties__about-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 52px;
+  width: 614px;
+  height: 78px;
+  background: #ffffff;
+  border-radius: 4px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  leading-trim: both;
+  text-edge: cap;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #282829;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  max-width: 1920px;
+  width: 100%;
+  height: 329px;
+  margin: 0 auto;
+  background-color: #222222;
+  margin: 0 auto;
+  border-top: 3px solid #ffffff;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.footer__top {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__top-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+
+  /* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+/* justify-content: flex-end; */
+align-items: center;
+padding: 0px;
+gap: 60px;
+height: 100px;
+
+/* position: absolute;
+width: 494px;
+height: 14px;
+left: calc(50% - 494px/2 + 1px);
+bottom: 275px; */
+
+
+}
+
+.footer__top-list-item {
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+
+  leading-trim: both;
+  text-edge: cap;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer__bottom {
+}
