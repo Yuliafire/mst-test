@@ -217,9 +217,9 @@
   align-items: center;
   justify-content: center;
   padding: 0px;
-  gap: 80px;
+  gap: 51px;
   padding-top: 40px;
-  padding-left: 40px;
+  padding-left: 45px;
   padding-right: 40px;
 }
 
@@ -242,7 +242,8 @@
 .properties__about-feature-wrapper {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 25px;
+  align-items: flex-start;
 }
 
 .properties__about-feature-wrapper p {
@@ -315,7 +316,7 @@
   background: #ffffff;
   border: 2px solid #d5c9be;
   border-radius: 30px;
-  padding-left: 100px;
+  padding-left: 135px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-image: url(./assets/8-8\ 3.png);
@@ -327,8 +328,8 @@
   font-family: "Prata";
   font-style: normal;
   font-weight: 400;
-  font-size: 54px;
   line-height: 110%;
+  font-size: 64px;
   color: #38535d;
 }
 
@@ -337,7 +338,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  gap: 45px;
+  gap: 38px;
 }
 
 .form__inputs {
@@ -358,22 +359,27 @@
   background: #ffffff;
   border: 2px solid #d6d6d6;
   border-radius: 4px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #55565a;
+  opacity: 0.7;
 }
 
 .form__submit {
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 25px 40px;
   gap: 20px;
-
   width: 781px;
   height: 100px;
-
   color: #fff;
   background: #222222;
-
   padding: 32px 20.8152px;
   gap: 8.67px;
 
@@ -390,6 +396,54 @@
   /* identical to box height, or 36px */
   text-align: center;
   text-transform: uppercase;
+}
+
+.form__inputs-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.checkbox {
+  display: flex;
+  gap: 15px;
+}
+.checkbox input {
+  /* Rectangle 50 */
+
+box-sizing: border-box;
+
+width: 24px;
+height: 24px;
+
+/* BG/WHITE */
+background: #FFFFFF;
+/* PRIMARY COLORS/OCEANIC */
+border: 2px solid #405D65;
+border-radius: 4px;
+}
+
+.checkbox label {
+    /* I accept Privacy policy */
+
+width: 217px;
+height: 14px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 130%;
+
+leading-trim: both;
+text-edge: cap;
+
+
+color: #55565A;
+
+
+
 }
 
 .footer {
