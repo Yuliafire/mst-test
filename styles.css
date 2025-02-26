@@ -189,12 +189,11 @@
 
 /* BANNER SECTION END */
 
-
 .properties {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1920px;
+  max-width: 120rem;
   height: auto;
   margin: 0 auto;
 }
@@ -202,11 +201,12 @@
 .properties__container {
   width: 100%;
   max-width: 120rem;
+  margin: 0 auto;
 }
 
 .properties__line {
   height: 100px;
-  background-color: #222222;
+  background-color: #282829;
 }
 
 .properties__content {
@@ -265,7 +265,11 @@
 }
 
 .properties__content {
-  background-color: #222222;
+  background-color: #282829;
+}
+
+.property__image {
+  width: 100%;
 }
 
 .properties__about-btn {
@@ -304,7 +308,7 @@
   margin: 0 auto;
   height: auto;
   padding: 100px 0px;
-  background-color: #222222;
+  background-color: #282829;
 }
 
 .form__container {
@@ -448,7 +452,7 @@
   margin: 0 auto;
   background-color: #222222;
   margin: 0 auto;
-  border-top: 3px solid #ffffff;
+  border-top: 3px solid #d5c9be;
 }
 
 .footer__container {
@@ -474,6 +478,11 @@
   padding: 0px;
   gap: 3.75rem;
   height: 5.625rem;
+}
+
+.footer__top-line {
+  background: #d5c9be;
+  height: 2px;
 }
 
 .footer__top-list-item {
@@ -536,8 +545,6 @@
   transition: all ease 0.5s;
 }
 
-
-
 .footer__bottom-section-item {
   font-family: "Arial";
   font-style: normal;
@@ -549,9 +556,7 @@
   color: #d5c9be;
 }
 
-
 @media (hover: hover) and (pointer: fine) {
-
   .banner__nav-list-link:hover {
     transform: scale(1.1);
   }
@@ -570,21 +575,21 @@
   .form__submit:hover {
     background: grey;
     border: grey;
-    color: #FFF;
+    color: #fff;
     transform: scale(1.05);
   }
 
   .form__submit:hover {
     background: grey;
     border: grey;
-    color: #FFF;
+    color: #fff;
     transform: scale(1.05);
   }
 
   .form__submit:hover {
     background: grey;
     border: grey;
-    color: #FFF;
+    color: #fff;
     transform: scale(1.05);
   }
 
@@ -606,22 +611,14 @@
   }
 }
 
-
 @media (min-width: 1201px) and (max-width: 1600px) {
-
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
-
 }
 
 @media (min-width: 321px) and (max-width: 768px) {
-
 }
 
 @media (max-width: 320px) {
-
-
 }
-
-
