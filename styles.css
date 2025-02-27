@@ -181,8 +181,6 @@
   font-weight: 400;
   font-size: 40px;
   line-height: 150%;
-  leading-trim: both;
-  text-edge: cap;
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -205,8 +203,6 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 150%;
-  leading-trim: both;
-  text-edge: cap;
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -323,8 +319,6 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 150%;
-  leading-trim: both;
-  text-edge: cap;
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -665,7 +659,7 @@ font-size: 54px;
   }
 }
 
-@media (min-width: 1201px) and (max-width: 1600px) {
+@media (min-width: 1201px) and (max-width: 1450px) {
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
